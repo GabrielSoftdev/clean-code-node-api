@@ -1,0 +1,10 @@
+{
+  "extends": "standard-with-typescript",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "space-before-blocks": "off",
+    "@typescript-eslint/space-before-blocks": "off"
+  }
+}
