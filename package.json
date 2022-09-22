@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest --watch",
+    "test": "vitest",
     "test:staged": "vitest --run --passWithNoTests --dir \"src/\"",
     "coverage": "vitest run --coverage"
   },
