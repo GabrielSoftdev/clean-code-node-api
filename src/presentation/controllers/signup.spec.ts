@@ -1,7 +1,7 @@
 import { describe, test, expect, vitest } from 'vitest'
 import { SignupController } from './signup'
 import { MissingParamError, InvalidParamError, ServerError } from '../errors'
-import { EmailValidator } from '../protocols/email-validator'
+import { EmailValidator } from '../protocols/'
 
 import { } from '../errors/server-error'
 
